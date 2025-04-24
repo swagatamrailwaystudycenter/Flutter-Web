@@ -25814,7 +25814,7 @@ arb(a){var s=0,r=A.O(t.N),q,p,o,n
 var $async$arb=A.P(function(b,c){if(b===1)return A.L(c,r)
 while(true)switch(s){case 0:o=t.N
 s=3
-return A.R(A.aCH(A.e9("https://fond-emmalee-swagatamrailwaystudycenter-59627810.koyeb.app/create-order?amount="+a,0,null),A.ap(["Content-Type","application/json"],o,o)),$async$arb)
+return A.R(A.aCH(A.e9("https://fond-emmalee-swagatamrailwaystudycenter-59627810.koyeb.app/api/create-order?amount="+a,0,null),A.ap(["Content-Type","application/json"],o,o)),$async$arb)
 case 3:n=c
 if(n.b===200){p=B.d1.eO(0,A.aCe(A.aBd(n.e).c.a.h(0,"charset")).eO(0,n.w))
 o=J.fc(p)
@@ -81518,7 +81518,7 @@ Xg(a,b,c){var s=0,r=A.O(t.H),q=this,p,o,n
 var $async$vc=A.P(function(d,e){if(d===1)return A.L(e,r)
 while(true)switch(s){case 0:A.nR(b)
 A.nR(c)
-p=A.e9("https://fond-emmalee-swagatamrailwaystudycenter-59627810.koyeb.app/payment-callback",0,null)
+p=A.e9("https://fond-emmalee-swagatamrailwaystudycenter-59627810.koyeb.app/api/payment-callback",0,null)
 o=q.c
 o===$&&A.a()
 n=t.N
